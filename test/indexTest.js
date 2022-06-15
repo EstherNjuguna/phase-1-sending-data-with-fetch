@@ -49,7 +49,7 @@ describe( "submitData()", () => {
     expect( reqBody.name, "The 'name' property was not found in the request body" )
       .to.eq( "Steve" )
     expect( reqBody.email, "The 'email' property was not found in the request body" )
-      .to.eq( "steve@steve.com" )
+      .to.eq( "Steve")
   } )
 
   it( "handles the POST request response, retrieves the new id value and appends it to the DOM", async function () {
